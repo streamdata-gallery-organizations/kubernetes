@@ -1,33 +1,17 @@
 ---
-name: Kubernetes
-x-slug: kubernetes
-description: Manage a cluster of Linux containers as a single system to accelerate
-  Dev and simplify Ops. Kubernetes is an open source orchestration system for Docker
-  containers. It handles scheduling onto nodes in a compute cluster and actively manages
-  workloads to ensure that their state matches the users declared intentions. Using
-  the concepts of labels and pods, it groups the containers which make up an application
-  into logical units for easy management and discovery.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
-x-kinRank: "8"
-x-alexaRank: ""
-tags: Kubernetes
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/kubernetes/master/_listings/kubernetes/apis.md
+name: Streadata.io API Gallery - Kubernetes
+description: This is a repository of kubernetes APIs, self-contained as a Github repository,
+  with HTML and YAML representations of the APIs and their surrounding operations.
+image: http://template.streamdata.gallery/assets/kubernetes.png
+created: "2018-02-24"
+modified: "2018-06-19"
+url: http://kubernetes.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-blog
-  url: http://blog.kubernetes.io/
-- type: x-blog-rss
-  url: http://blog.kubernetes.io/feeds/posts/default
-- type: x-github
-  url: https://github.com/kubernetes
-- type: x-twitter
-  url: https://twitter.com/kubernetesio
-- type: x-website
-  url: http://kubernetes.io/
-include: []
+tags: Kubernetes
+include:
+- name: Kubernetes
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/kubernetes/master/_listings/kubernetes/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
